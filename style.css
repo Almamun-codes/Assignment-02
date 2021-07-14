@@ -1,0 +1,183 @@
+/* =======================================================
+                     Utilities
+========================================================== */
+
+body{
+    font-family: poppins,sans-serif;
+    }
+
+/* =======================================================
+                     Header Styles
+========================================================== */
+header{
+    background-color: #2D25A0;
+
+    }
+
+ .header-btn:hover{
+    transform : scale(120%);
+    }
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 145px;
+    }
+
+.half-width{
+
+    transition: transform 0.5s ease-out;
+    }
+
+.half-width:hover{
+    transform : scale(120%);
+    }
+
+.header-btn{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #E02C6D;
+    transition: transform 0.5s;
+    }
+
+.heading{
+    font-size: 55px;
+    color: white;
+    }
+
+header img{
+    Width: 555px;
+    Height: 438px;
+    }
+
+/* ===================================================================
+                       Player section Styles
+   =================================================================== */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 40px 150px;
+    }
+
+.player-card{
+    padding: 15px;
+    width: 300px;
+    height: 480px;
+    box-shadow: 0px 0px 40px 0px #00000026;
+    margin: 15px;
+    overflow: hidden;
+    }
+
+.player-card img:hover{
+    transform : scale(120%);
+    }
+
+.player-card img{
+    height: 255px;
+    width: 300px;
+    transition: transform 0.5s;
+    }
+
+.player-card p{
+    color: grey;
+    }
+
+.player-name{
+    font-size: 28px;}
+
+
+/* ====================================================================
+                       highlight section styles
+   ==================================================================== */
+.half-width p{
+    padding-right: 30px;
+    }
+
+.hi-heading{
+    font-size: 40px;
+    }
+
+#match-photo{
+    height: 427px;
+    width: 567px;
+    }
+
+/* ====================================================================
+                       Footer section styles
+   ==================================================================== */
+.footstyle{
+    text-align: center;
+    margin-top: 30px;
+    }
+
+#logo{
+    height: 110px;
+    width: 480px;
+    }
+
+.footer-icon{
+    width: 30px;
+    height: 30px;
+    margin: 3px 3px;
+    }
+
+
+
+
+/* ====================================================================
+                            Media Queries
+   ==================================================================== */
+
+@media screen and (max-width: 768px) {
+    body{
+    text-align: center;
+    }
+
+    .container{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    }
+
+    .half-width{
+    padding-left: 15px;
+    width: 100%;
+    }
+
+    .heading{
+    font-size: 25px;
+    }
+
+    header img{
+    margin-top: 20px;
+    width: 370px;
+    height: 260px;
+    }
+
+    .players{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+    }
+
+    .player-card{
+    width: 100%;
+    margin: 0;
+    }
+
+    #match-photo{
+    margin-top: 20px;
+    width: 370px;
+    height: 260px;
+    }
+
+    #logo{
+    width: 100%;
+    }
+
+}
+
