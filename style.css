@@ -88,6 +88,42 @@ header img{
 .player-name{
     font-size: 28px;}
 
+/* ====================================================================
+                       highlight section styles
+   ==================================================================== */
+
+.case-heading{
+    text-align: center;
+    font-size: 35px;
+    }
+
+.case-study{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 40px 150px;
+    }
+
+.case-card{
+    padding: 15px;
+    width: 300px;
+    height: 480px;
+    box-shadow: 0px 0px 40px 0px #00000026;
+    margin: 15px;
+    overflow: hidden;
+    }
+
+.case-card img{
+    height: 255px;
+    width: 300px;
+    transition: transform 0.5s;
+    }
+
+.case-card p{
+    color: grey;
+    }
+
+.case-name{
+    font-size: 28px;}
 
 /* ====================================================================
                        highlight section styles
@@ -174,6 +210,19 @@ header img{
     width: 370px;
     height: 260px;
     }
+
+
+    .case-study{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+    }
+
+    .case-card{
+    width: 100%;
+    margin: 0;
+    }
+
 
     #logo{
     width: 100%;
